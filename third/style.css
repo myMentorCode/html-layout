@@ -52,35 +52,51 @@ table {
 .container {
   width: 100%;
   height: 100vh;
+}
+
+header {
+  width: 100%;
+  height: 15vh;
+  background: grey;
   position: relative;
 }
 
-.header {
-  width: 100%;
-  height: 15vh;
-  background: grey;
-}
-
-.left-cont {
-  width: 10%;
-  height: 85vh;
-  float: left;
-  background: darkgrey;
-}
-
-.right-cont {
-  width: 10%;
-  height: 85vh;
-  float: right;
-  background: darkgrey;
-
-}
-
-.footer {
-  width: 100%;
-  height: 15vh;
+.pic {
+  width: 75px;
+  height: 75px;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGK_z8b5WAXoZX-WC__DUfCj1fjCbWG5T5OFExonywg2Fe8xfyRQ') center no-repeat;
+  background-size: cover;
   position: absolute;
-  bottom: 0px;
-  background: grey;
-  z-index: -10;
+  left: 20px;
+  top: 10px;
+}
+
+.cont {
+  width: 100%;
+  height: 25vh;
+  padding: 20px;
+}
+
+.top {
+  width: 100%;
+  height: 15vh;
+  background: blue;
+}
+
+.top-mid {
+  width: 100%;
+  height: 15vh;
+  background: lightgreen;
+}
+
+.bot-mid {
+  width: 100%;
+  height: 15vh;
+  background: tan;
+}
+
+.bot {
+  width: 100%;
+  height: 15vh;
+  background: yellow;
 }

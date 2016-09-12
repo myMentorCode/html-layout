@@ -50,37 +50,37 @@ table {
 /* reset^^^ styles are down*/
 
 .container {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-}
-
-.header {
-  width: 100%;
-  height: 15vh;
-  background: grey;
+	width: 100%;
+	height: 200vh;
 }
 
 .left-cont {
-  width: 10%;
-  height: 85vh;
-  float: left;
-  background: darkgrey;
+	width: 33.3%;
+	height: 200vh;
+	background: blue;
+	float: left;
+}
+
+.mid-cont {
+	width: 33.3%;
+	height: 200vh;
+	background: lightblue;
+	float: left;
 }
 
 .right-cont {
-  width: 10%;
-  height: 85vh;
-  float: right;
-  background: darkgrey;
-
+	width: 33.4%;
+	height: 200vh;
+	background: lightyellow;
+	float: left;
+	position: relative;
 }
 
-.footer {
-  width: 100%;
-  height: 15vh;
-  position: absolute;
-  bottom: 0px;
-  background: grey;
-  z-index: -10;
+.bot-right-cont {
+	width: 100%;
+	height: 45vh;
+	background: url("https://i.ytimg.com/vi/sYXBG3--lx8/maxresdefault.jpg") center no-repeat;
+	background-size: cover;
+	position: absolute;
+	bottom: 0px;
 }
